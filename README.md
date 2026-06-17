@@ -15,7 +15,7 @@ https://fred.stlouisfed.org/series/USREC
 
 **To Install and Run:**
 
-This project uses Python. Make sure that you have both Python 3.14 and the project downloaded as well as the libraries listed in requirements.txt. To install libraries use:
+This project uses Python. Make sure that you have both Python 3.14 and the project downloaded, as well as the libraries listed in requirements.txt. To install libraries, use:
 
 > pip install -r requirements.txt
 
@@ -27,3 +27,14 @@ After this, you can run either using the run button in your IDE or directly thro
 
 once again ensuring that you are in the project directory.
 
+**Output**
+
+Output data is placed into folders associated with either the random forest or the ensemble as a whole. The configuration for each run of the model is stored here. Attached to this project are my outputs and configuration data associated with a single config state of this model. These are the same results I use in my Substack piece.
+
+**Methodology and Motivation**
+
+The hope is to take a large set of economic indicators and use them to properly classify periods as recessionary or otherwise. This project uses multiple classifier models, but the first model is a random forest classifier model. This uses the scikit-learn RandomForestClassifier function, which you can read more about here:
+
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
+This takes a set 
