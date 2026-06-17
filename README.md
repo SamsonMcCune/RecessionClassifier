@@ -1,4 +1,4 @@
-# RecessionClassifier
+# Recession Classifier
 An approach to recession classification using machine learning.
 
 **Project Overview**
