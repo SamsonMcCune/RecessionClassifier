@@ -1,0 +1,19 @@
+{
+  "fred_md_path": "c:\\Users\\smccune\\Desktop\\Python\\RecessionClassifier\\main\\data\\fred_md_current.csv",
+  "usrec_path": "c:\\Users\\smccune\\Desktop\\Python\\RecessionClassifier\\main\\data\\USREC.csv",
+  "usrec_fred_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=USREC",
+  "start_date": "1960-01-01",
+  "test_start": "2000-01-01",
+  "forecast_horizon": 12,
+  "feature_lag": 1,
+  "valid_years": 10,
+  "max_missing": 0.35,
+  "n_estimators": 700,
+  "max_depth": 5,
+  "min_samples_leaf": 5,
+  "stacking_splits": 5,
+  "model_selection_metric": "average_precision",
+  "model": "ensemble",
+  "random_state": 42,
+  "output_dir": "c:\\Users\\smccune\\Desktop\\Python\\RecessionClassifier\\main\\outputs_ensemble_recession"
+}
