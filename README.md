@@ -5,14 +5,23 @@ An approach to recession classification using machine learning.
 
 Using FRED-provided data, this project classifies each month according to the probability that it should have been classified by the National Bureau of Economic Research (NBER) as recessionary or not. It does so using either a random forest model through scikit-learn, or an ensemble method which includes classifier models such as XGBoost, LightGBM, and CatBoost.
 
+**Data**
+
+All data is taken from the FRED database.
+[fred-md:]([url](https://www.stlouisfed.org/research/economists/mccracken/fred-databases))
+[usrec]([url](https://fred.stlouisfed.org/series/USREC))
+
 **To Install and Run:**
 
-This project uses Python. Make sure that you have Python 3.14 downloaded and the libraries listed in requirements.txt. To install, use 
+This project uses Python. Make sure that you have both Python 3.14 and the project downloaded as well as the libraries listed in requirements.txt. To install libraries use:
+
 > pip install -r requirements.txt
+
 in your terminal window, ensuring that you are operating in the same directory as the project.
 
-After this, you can run either using the run button in your IDE or directly through your terminal by running 
-> python {project_name}
-once again ensuring that you are in the project directory.
+After this, you can run either using the run button in your IDE or directly through your terminal by running:
 
+> python {project_name}
+
+once again ensuring that you are in the project directory.
 
