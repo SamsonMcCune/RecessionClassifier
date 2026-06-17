@@ -8,8 +8,8 @@ Using FRED-provided data, this project classifies each month according to the pr
 **Data**
 
 All data is taken from the FRED database.
-[fred-md:]([url](https://www.stlouisfed.org/research/economists/mccracken/fred-databases))
-[usrec]([url](https://fred.stlouisfed.org/series/USREC))
+https://www.stlouisfed.org/research/economists/mccracken/fred-databases
+https://fred.stlouisfed.org/series/USREC
 
 **To Install and Run:**
 
