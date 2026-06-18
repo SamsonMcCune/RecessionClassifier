@@ -33,8 +33,14 @@ Output data is placed into folders associated with either the random forest or t
 
 **Methodology and Motivation**
 
-The hope is to take a large set of economic indicators and use them to properly classify periods as recessionary or otherwise. This project uses multiple classifier models, but the first model is a random forest classifier model. This uses the scikit-learn RandomForestClassifier function, which you can read more about here:
+The hope is to take a large set of economic indicators and use them to properly predict whether periods will be recessionary or not. This project uses multiple classifier models, but the first model is a random forest classifier model. This uses the scikit-learn RandomForestClassifier function, which you can read more about here:
 
 https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 
-This takes a set 
+This takes a set of decision trees, another classifier model, and randomly samples input data to then create an ensemble of these decision trees and classifies the output data by averaging the probabilities from each decision tree. Read more about decision trees here:
+
+https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
+
+For the "ensemble" model (in quotes because a random forest is technically already an ensemble), we add on other methods that explore adding extra trees and boosting, either through gradient boosting, XGBoost, LightGBM, or CatBoost.
+
+
