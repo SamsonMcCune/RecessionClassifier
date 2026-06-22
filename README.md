@@ -45,6 +45,11 @@ For the "ensemble" model (in quotes because a random forest is technically alrea
 
 Read more about these here:
 
+https://en.wikipedia.org/wiki/XGBoost
+https://catboost.ai/
+https://en.wikipedia.org/wiki/LightGBM
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html
+https://en.wikipedia.org/wiki/Gradient_boosting
 
 
 **Findings and Interpretation**
@@ -52,4 +57,5 @@ Read more about these here:
 This program is attempting to take any given month and classify the probability that there will be a recession in the 12 months following that chosen month. Thus, this is an inherently predictive model. Because, however, this returns the probability that there will be a recession anywhere in the next 12 months, this could reasonably be interpreted as a nowcasting model as well as a forecasting model. This is how the model is able to "predict" COVID when the economy had no knowledge that a global pandemic was coming. Further, the classification of recessions is based on an unpredictable classification provided by NBER. This determines that the post COVID era was not recessionary and thus returns a set of "false positives" while I argue that in reality these could, or rather should, be seen as true positives. To see the findings directly, feel free to explore either output folder.
 
 **Disclaimer**
+
 This work was done in collaboration with ChatGPT for some parts of the programming. None of this README or the Substack post were written using the help of an LLM.
