@@ -46,9 +46,13 @@ For the "ensemble" model (in quotes because a random forest is technically alrea
 Read more about these here:
 
 https://en.wikipedia.org/wiki/XGBoost
+
 https://catboost.ai/
+
 https://en.wikipedia.org/wiki/LightGBM
+
 https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html
+
 https://en.wikipedia.org/wiki/Gradient_boosting
 
 
